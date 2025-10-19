@@ -1,0 +1,11 @@
+Using a tree is best because it is good to represent hierarchical relations, such as supervisory or departmental hierarchies. The DoctorNode has a 
+maximum of two children (left and right), where a more senior doctor has juniors who report to them. Trees prevent infinite loops in traversals and allow 
+efficient operations like insertion and searching in balanced cases. This is best suited for systems that use hierarchies that have medical teams with pyramid structures.
+There is then a root master, or top leader, who spreads out different specialists. 
+
+Tree traversals are used in many applications by software developers based on node visitation order. Preorder (root, left, right) is best to replicate trees or to 
+parse prefix expressions because it traverses parents before children, useful for file system directory listings. Inorder (left, root, right) is best for binary search trees 
+to read elements in order, which is common in database indexing. Postorder (left, right, root) is required for operations on children first, like deleting trees.
+
+Heaps are very efficient by keeping overheads on priorities to a minimum. In the MinHeap data structure, patients are ordered by urgency, with the most urgent patient 
+being treated first. This imitates ER triage, where severe cases have to be handled first without scanning all the waiting patients.
